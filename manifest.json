@@ -1,12 +1,10 @@
 {
-  "name": "ИМТ Калькулятор",
+  "name": "Калькулятор ИМТ",
   "short_name": "ИМТ",
-  "theme_color": "#fff",
-  "background_color": "#fff",
+  "start_url": "./",
   "display": "standalone",
-  "orientation": "portrait",
-  "scope": "",
-  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
