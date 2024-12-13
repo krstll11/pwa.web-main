@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="pwa.css">
+
+        <link rel="shortcut-icon" href="images/people.png" type="image/x-icon">
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#fff">
+        <link rel="icon" href="images/icons/icon-128x128.png">
+        <link rel="apple-touch-icon" href="images/icons/icon-192x192.png">
+        <mete name="apple-mobile-web-app-status-bar" content="#fff">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="images/people.png" alt="logo" height="50" width="50">
+                Калькулятор ИМТ
+            </div>
+            </div>
+            <div class="input-div" id="height">
+                <label for="">Введите рост в сантиметрах</label>
+                <input type="number">
+            </div>
+            <div class="input-div" id="weight">
+                <label for="">Введите вес в килограммах</label>
+                <input type="number">
+            </div>
+            <div class="input-div" id="output">
+                <label for="">ИМТ</label>
+                <input type="number" readonly>
+            </div>
+            <div class="input-div" >
+                <button id="btn">Рассчитать</button>
+            </div>
+        </div>
+        <script src="pwa.js"></script>
+    </body>
+</html>
